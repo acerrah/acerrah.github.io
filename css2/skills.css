@@ -12,11 +12,13 @@
 
 .skills-row .skills-column {
     flex: 1 1 40rem;
+    min-width: 350px;
 }
 
 .skills-column .title {
     font-size: 2.5rem;
     margin: 0 0 1.5rem;
+    white-space: nowrap;
 }
 
 .skills-box .skills-content {
@@ -26,21 +28,6 @@
     padding: 2rem;
     z-index: 1;
     overflow: hidden;
-}
-
-.skills-box .skills-content::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 0;
-    height: 100%;
-    background: var(--bg-color);
-    z-index: -1;
-    transition: .5s;
-}
-
-.skills-box .skills-content:hover::before {
     width: 100%;
 }
 
@@ -53,18 +40,14 @@
 }
 
 .skill-item h3 {
-    font-size: 2rem;
+    font-size: 1.8rem;
     margin-bottom: 0.5rem;
     color: var(--main-color);
 }
 
 .skill-item p {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     color: var(--text-color);
     line-height: 1.6;
-}
-
-.skills-box .skills-content:hover {
-    transform: translateY(-5px);
-    transition: .3s;
+    word-wrap: break-word;
 }
