@@ -16,8 +16,8 @@
 }
 
 .skills-column .title {
-    font-size: 3.5rem;
-    margin: 0 0 2rem;
+    font-size: 30px;
+    margin: 0 0 20px;
     white-space: nowrap;
 }
 
@@ -25,14 +25,14 @@
     position: relative;
     border: .2rem solid var(--main-color);
     border-radius: .6rem;
-    padding: 3rem;
+    padding: 25px;
     z-index: 1;
     overflow: hidden;
     width: 100%;
 }
 
 .skill-item {
-    margin-bottom: 2.5rem;
+    margin-bottom: 20px;
 }
 
 .skill-item:last-child {
@@ -40,13 +40,13 @@
 }
 
 .skill-item h3 {
-    font-size: 2.8rem;
-    margin-bottom: 1rem;
+    font-size: 24px;
+    margin-bottom: 10px;
     color: var(--main-color);
 }
 
 .skill-item p {
-    font-size: 2.4rem;
+    font-size: 20px;
     color: var(--text-color);
     line-height: 1.8;
     word-wrap: break-word;
